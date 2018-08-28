@@ -21,7 +21,7 @@
       h4 span { background: #217ac0; padding: 2px 6px 2px 6px }
       h4 span { border: 1px solid #cee9f9; border-radius: 4px }
       h4 span { color: white }
-      .attributes { margin-left: 22px; font-size: 90% }
+      .attributes { margin-left: 22px; font-size: 90%; }
       .attributes p { margin-left: 16px; font-style: italic }
       </style>
       <details>
@@ -57,6 +57,9 @@
         side content that is not to be rendered when a page is
         loaded but may subsequently be instantiated during
         runtime using JavaScript.</span>
+        <div slot="attributes">
+          <a href="#">The link is here.</a>
+        </div>
     </element-details>
 
     <script src="main.js"></script>
